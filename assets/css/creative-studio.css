@@ -11,6 +11,7 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
 :root {
   --blue: #79a9f5;
   --indigo: #c45f90;
@@ -4835,6 +4836,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
+  font-family: "BPG Nino Mtavruli", sans-serif;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -12322,7 +12324,9 @@ section .section-subtitle {
     font-size: 23px;
   }
 }
-
+h6 {
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
 section .section-title {
   font-size: calc(28px + (35 - 28) * ((100vw - 320px) / (1200 - 320)));
 }
